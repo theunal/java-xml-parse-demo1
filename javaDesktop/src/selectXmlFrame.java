@@ -6,9 +6,6 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.nio.file.spi.FileTypeDetector;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,7 +20,7 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class selectXmlFrame extends javax.swing.JFrame {
         BufferedWriter writer = null;
-    // database'e xmlden veri atıyor
+    
  
 
   
@@ -414,18 +411,6 @@ public class selectXmlFrame extends javax.swing.JFrame {
        
     }
      
-
-        
-        
-        
-        
-        
- 
-    
-    
-    
-    
-  
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
