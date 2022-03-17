@@ -46,9 +46,7 @@ public class frame extends javax.swing.JFrame {
             }
             
         } catch (SQLException ex) {
-          System.out.println("Error: +"+ex.getMessage());
-          System.out.println("Errod Code: "+ex.getErrorCode());
-          System.out.println("baglanti olusturuldu");
+          System.out.println("baglanti olusturulamadı");
         }
         finally {
             statement.close();
